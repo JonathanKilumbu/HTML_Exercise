@@ -1,0 +1,10 @@
+body{
+    background-color:rgb(49, 217, 240);
+    font-family:Charlemagne Std;
+}
+#main-title{
+    text-align:center;
+}
+.content{
+    margin-bottom: 12px;
+}

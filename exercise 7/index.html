@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 7</title>
+</head>
+<body>
+    <!-- Ask the user for an input -->
+    <input id="name-input" type="text" placeholder="Enter your name" />
+    <!-- creats a gpu bottom to click -->
+<button id="my-button">Click Me</button>
+
+<script>
+    //veriable for the buttom action 
+  var myButton = document.querySelector('#my-button');
+  //veriable for the name  
+  var nameInput = document.querySelector('#name-input');
+  // when the bottom is click actives the action message 
+  myButton.addEventListener('click', function () {
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
+</body>
+</html>
